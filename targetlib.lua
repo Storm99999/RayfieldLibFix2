@@ -1654,9 +1654,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Topbar.Divider.Size = UDim2.new(0, 0, 0, 1)
 	Topbar.CornerRepair.BackgroundTransparency = 1
 	Topbar.Title.TextTransparency = 1
-	Topbar.Lighting.ImageTransparency = 1
-	Topbar.ChangeSize.ImageTransparency = 1
-	Topbar.Hide.ImageTransparency = 1
+	--Topbar.Lighting.ImageTransparency = 1
+	--Topbar.ChangeSize.ImageTransparency = 1
+	--Topbar.Hide.ImageTransparency = 1
 
 	wait(0.8)
 	Topbar.Visible = true
